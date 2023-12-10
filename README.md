@@ -17,7 +17,21 @@
     </p>
 </p>
 
-# Citation
+## Environment
+
+```bash
+conda create -n reot python=3.7
+conda activate reot
+pip install -r requirements.txt
+```
+
+## Training
+
+```bash
+$ python main.py --cfg config/{config_file}.yaml
+```
+
+## Citation
 
 If you find our work useful in your research, please consider citing:
 
@@ -29,3 +43,6 @@ If you find our work useful in your research, please consider citing:
   year={2023}
 }
 ```
+
+## References
+- The code is based on [BalancedMetaSoftmax]() and [classifier-balancing](https://github.com/facebookresearch/classifier-balancing).

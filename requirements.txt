@@ -1,0 +1,8 @@
+torch
+pyyaml
+higher
+torchvision
+tqdm
+matplotlib
+scikit-learn
+h5py
